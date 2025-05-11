@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SondageCashCI - Gagnez de l'argent en répondant à des sondages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SondageCashCI</h1>
+        <p>Répondez à des sondages. Gagnez de l'argent. Simple et rapide !</p>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="sondage.html">Sondages</a>
+            <a href="#">Connexion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenue sur SondageCashCI</h2>
+            <p>Participez à nos sondages et recevez des paiements via Orange Money, Moov Money, MTN Money.</p>
+            <a href="sondage.html" class="btn">Commencer un sondage</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SondageCashCI. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
