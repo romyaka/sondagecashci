@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Sondages – SondageCashCI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sondages - SondageCashCI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,34 +12,25 @@
         <h1>SondageCashCI</h1>
         <nav>
             <a href="index.html">Accueil</a>
-            <a href="sondages.html">Sondages</a>
-            <a href="#">Connexion</a>
+            <a href="sondages.html" class="active">Sondages</a>
+            <a href="connexion.html">Connexion</a>
         </nav>
     </header>
 
     <main>
-        <h2>Liste des sondages disponibles</h2>
+        <section class="survey">
+            <h2>Sondage 1 : Vos habitudes d'achat</h2>
+            <p>Durée : 2 minutes</p>
+            <p>Récompense : 500 FCFA</p>
+            <button onclick="alert('Merci pour votre participation !')">Commencer</button>
+        </section>
 
-        <div class="sondage">
-            <h3>Quel réseau mobile utilisez-vous ?</h3>
-            <p><strong>Durée :</strong> 1 minute</p>
-            <p><strong>Récompense :</strong> 500 FCFA</p>
-            <button>Participer</button>
-        </div>
-
-        <div class="sondage">
-            <h3>Êtes-vous satisfait de votre opérateur mobile ?</h3>
-            <p><strong>Durée :</strong> 2 minutes</p>
-            <p><strong>Récompense :</strong> 500 FCFA</p>
-            <button>Participer</button>
-        </div>
-
-        <div class="sondage">
-            <h3>Utilisez-vous Orange Money régulièrement ?</h3>
-            <p><strong>Durée :</strong> 1 minute</p>
-            <p><strong>Récompense :</strong> 500 FCFA</p>
-            <button>Participer</button>
-        </div>
+        <section class="survey">
+            <h2>Sondage 2 : Utilisation d’internet</h2>
+            <p>Durée : 1 minute</p>
+            <p>Récompense : 500 FCFA</p>
+            <button onclick="alert('Merci pour votre participation !')">Commencer</button>
+        </section>
     </main>
 
     <footer>
